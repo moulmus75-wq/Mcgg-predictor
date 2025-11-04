@@ -1,0 +1,5 @@
+pkg update -y
+pkg install git curl wget proot-distro -y
+proot-distro install ubuntu
+proot-distro login ubuntu
+apt update && apt install docker.io docker-compose unzip -y
